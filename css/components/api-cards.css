@@ -1,0 +1,59 @@
+/* API Reference Cards */
+.api-card {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    margin: var(--spacing-lg) 0;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.api-header {
+    background: var(--background-secondary);
+    padding: 0.75rem var(--spacing-md);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.api-endpoint {
+    font-family: var(--font-family-mono);
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+.api-body {
+    padding: 1.25rem;
+}
+
+/* HTTP Method Badges */
+.http-method {
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    min-width: 60px;
+    text-align: center;
+}
+
+.method-get { 
+    background: var(--success); 
+    color: white; 
+}
+
+.method-post { 
+    background: var(--primary-color); 
+    color: white; 
+}
+
+.method-put { 
+    background: var(--warning); 
+    color: white; 
+}
+
+.method-delete { 
+    background: var(--error); 
+    color: white; 
+}

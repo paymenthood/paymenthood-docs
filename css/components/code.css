@@ -1,0 +1,42 @@
+/* Code Blocks and Syntax Highlighting */
+.code-block {
+    background: var(--code-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-md);
+    margin: var(--spacing-md) 0;
+    overflow-x: auto;
+    position: relative;
+    font-size: 0.85rem;
+}
+
+.code-block pre {
+    margin: 0;
+    font-family: var(--font-family-mono);
+    font-size: 0.8rem;
+    line-height: 1.4;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+.code-language {
+    position: absolute;
+    top: var(--spacing-sm);
+    right: var(--spacing-sm);
+    background: var(--primary-color);
+    color: white;
+    padding: 0.2rem var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+/* Inline Code */
+code {
+    background: var(--code-bg);
+    padding: 0.2rem 0.4rem;
+    border-radius: var(--border-radius-sm);
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    font-family: var(--font-family-mono);
+}

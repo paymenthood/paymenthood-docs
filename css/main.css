@@ -1,0 +1,23 @@
+/*!
+ * PaymentHood Documentation Styles
+ * Professional CSS architecture with modular organization
+ */
+
+/* 1. Base Styles - Variables and reset */
+@import 'base/variables.css';
+@import 'base/reset.css';
+
+/* 2. Layout Styles - Page structure */
+@import 'layout/header.css';
+@import 'layout/sidebar.css';
+@import 'layout/main.css';
+
+/* 3. Component Styles - Reusable UI components */
+@import 'components/code.css';
+@import 'components/api-cards.css';
+@import 'components/tables.css';
+@import 'components/cards.css';
+@import 'components/badges.css';
+
+/* 4. Utilities - Responsive and helper styles */
+@import 'utilities/responsive.css';

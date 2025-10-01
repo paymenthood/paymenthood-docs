@@ -1,0 +1,44 @@
+/* Quick Start Cards */
+.quick-start-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: var(--spacing-lg) 0;
+}
+
+.quick-start-card {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    text-align: center;
+    transition: all var(--transition-fast) ease;
+}
+
+.quick-start-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.quick-start-icon {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto var(--spacing-md);
+    color: white;
+    font-size: 1.25rem;
+}
+
+.quick-start-card h4 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.quick-start-card p {
+    font-size: 0.85rem;
+    margin-bottom: var(--spacing-sm);
+}
